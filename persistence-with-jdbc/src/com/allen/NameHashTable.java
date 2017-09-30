@@ -19,8 +19,8 @@ public class NameHashTable {
 		hash.put("Carlos", 4);
 		hash.put("Graham", 5);
 		hash.put("Hitomi", 6);
-		hash.put("JohnH", 7);
-		hash.put("JohnL", 8);
+		hash.put("John H", 7);
+		hash.put("John L", 8);
 		hash.put("Julie", 9);
 		hash.put("Leila", 10);
 		hash.put("Marc", 11);
