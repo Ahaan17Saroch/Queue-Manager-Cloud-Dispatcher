@@ -16,17 +16,16 @@ public class NameHashTable {
 		hash.put("Alex", 1);
 		hash.put("Allen", 2);
 		hash.put("April", 3);
-		hash.put("Carlos", 4);
-		hash.put("Graham", 5);
-		hash.put("Hitomi", 6);
-		hash.put("John H", 7);
-		hash.put("John L", 8);
-		hash.put("Julie", 9);
-		hash.put("Leila", 10);
-		hash.put("Marc", 11);
-		hash.put("Pedro", 12);
-		hash.put("Stefan", 13);
-		hash.put("Yvonne", 14);
+		hash.put("Graham", 4);
+		hash.put("Hitomi", 5);
+		hash.put("John H", 6);
+		hash.put("John L", 7);
+		hash.put("Julie", 8);
+		hash.put("Leila", 9);
+		hash.put("Marc", 10);
+		hash.put("Pedro", 11);
+		hash.put("Stefan", 12);
+		hash.put("Yvonne", 13);
 	}
 	
 }
