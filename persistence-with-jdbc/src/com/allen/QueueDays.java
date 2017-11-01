@@ -10,7 +10,7 @@ public class QueueDays {
 		hash.put("Alex", (double) 3);
 		hash.put("Allen", (double) 4);
 		hash.put("April", (double) 3);
-		hash.put("Graham", (double) 4);
+		hash.put("Graham", (double) 3);
 		hash.put("Hitomi", (double) 2.5);
 		hash.put("John H", (double) 0);
 		double johnL = 0.5;
