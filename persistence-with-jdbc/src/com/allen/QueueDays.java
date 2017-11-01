@@ -7,7 +7,7 @@ public class QueueDays {
 	public static Map<String, Double> hash = new HashMap<>();
 
 	public static void initHash() {
-		hash.put("Alex", (double) 4);
+		hash.put("Alex", (double) 3);
 		hash.put("Allen", (double) 4);
 		hash.put("April", (double) 3);
 		hash.put("Graham", (double) 4);
@@ -19,7 +19,7 @@ public class QueueDays {
 		hash.put("Leila", (double) 0);
 		hash.put("Marc", (double) 3);
 		hash.put("Pedro", (double) 3);
-		hash.put("Stefan", (double) 2);
+		hash.put("Stefan", (double) 1);
 		double yvonne = 0.75;
 		hash.put("Yvonne", (double) 2 * yvonne);
 	}
