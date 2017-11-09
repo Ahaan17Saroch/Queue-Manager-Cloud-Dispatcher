@@ -25,11 +25,23 @@ public class QueueDays {
 	}
 	
 	public static void minusValue(String name) {
-		hash.put(name, (double)getValue(name)-1);
+//		if (name.equals("John L")) {
+//			hash.put(name, (double)(getValue(name)-1)*0.5);
+//		} else if (name.equals("Yvonne")) {
+//			hash.put(name, (double)(getValue(name)-1)*0.75);
+//		} else {
+			hash.put(name, (double)getValue(name)-0.5);
+//		}
 	}
 	
 	public static void addValue(String name) {
-		hash.put(name, (double)getValue(name)+1);
+//		if (name.equals("John L")) {
+//			hash.put(name, (double)(getValue(name)+1)*0.5);
+//		} else if (name.equals("Yvonne")) {
+//			hash.put(name, (double)(getValue(name)+1)*0.75);
+//		} else {
+			hash.put(name, (double)getValue(name)+0.5);
+//		}
 	}
 	
 	public static double getValue(String name) {
