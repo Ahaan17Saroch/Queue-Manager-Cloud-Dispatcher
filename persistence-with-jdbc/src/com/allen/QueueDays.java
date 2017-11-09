@@ -24,9 +24,12 @@ public class QueueDays {
 		hash.put("Yvonne", (double) 4 * yvonne);
 	}
 	
-	public static void changeValue(String name, String value) {
-		
-		hash.put(name, Double.parseDouble(value));
+	public static void minusValue(String name) {
+		hash.put(name, (double)getValue(name)-1);
+	}
+	
+	public static void addValue(String name) {
+		hash.put(name, (double)getValue(name)+1);
 	}
 	
 	public static double getValue(String name) {
