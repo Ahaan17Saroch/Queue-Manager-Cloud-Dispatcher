@@ -7,6 +7,8 @@ public class QueueDays {
 	public static Map<String, Double> hash = new HashMap<>();
 
 	public static void initHash() {
+		hash.put("Ahaan", (double) 5);
+		
 		hash.put("Alex", (double) 5);
 		hash.put("Allen", (double) 5);
 		hash.put("April", (double) 5);

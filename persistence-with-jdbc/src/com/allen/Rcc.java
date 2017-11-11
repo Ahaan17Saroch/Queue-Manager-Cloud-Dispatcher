@@ -67,6 +67,7 @@ public class Rcc extends HttpServlet {
 	
 	private void displayTable(HttpServletResponse response) throws IOException {
 		Integer index = 1;
+		writeRow(index, response, "Ahaan", "1.00");
 		writeRow(index, response, "Alex", "1.00");
 		writeRow(index, response, "Allen", "1.00");
 		writeRow(index, response, "April", "1.00");
@@ -98,7 +99,7 @@ public class Rcc extends HttpServlet {
 		String name = request.getParameter("name").trim();
         String value = request.getParameter("value").trim();
         if (name != null && value != null) {
-        	if (!name.equals("Alex") || !name.equals("Allen")
+        	if (!name.equals("Ahaan") || !name.equals("Alex") || !name.equals("Allen")
         			|| !name.equals("April") || !name.equals("Graham")
         			|| !name.equals("Hitomi") || !name.equals("John H")
         			|| !name.equals("John L") || !name.equals("Julie")

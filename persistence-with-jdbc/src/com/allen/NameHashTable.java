@@ -26,6 +26,7 @@ public class NameHashTable {
 		hash.put("Pedro", 11);
 		hash.put("Stefan", 12);
 		hash.put("Yvonne", 13);
+		hash.put("Ahaan", 14);
 	}
 	
 }
