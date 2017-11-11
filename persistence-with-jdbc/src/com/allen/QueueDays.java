@@ -13,15 +13,16 @@ public class QueueDays {
 		hash.put("Graham", (double) 5);
 		hash.put("Hitomi", (double) 5);
 		hash.put("John H", (double) 5);
-		double johnL = 0.5;
-		hash.put("John L", (double) 5 * johnL);
+		
+		hash.put("John L", (double) 5);
+		
 		hash.put("Julie", (double) 5);
 		hash.put("Leila", (double) 5);
 		hash.put("Marc", (double) 5);
 		hash.put("Pedro", (double) 5);
 		hash.put("Stefan", (double) 5);
-		double yvonne = 0.75;
-		hash.put("Yvonne", (double) 4 * yvonne);
+		
+		hash.put("Yvonne", (double) 5);
 	}
 	
 	public static void changeValue(String name, double value) {
@@ -29,23 +30,11 @@ public class QueueDays {
 	}
 	
 	public static void minusValue(String name) {
-//		if (name.equals("John L")) {
-//			hash.put(name, (double)(getValue(name)-1)*0.5);
-//		} else if (name.equals("Yvonne")) {
-//			hash.put(name, (double)(getValue(name)-1)*0.75);
-//		} else {
-			hash.put(name, (double)getValue(name)-0.5);
-//		}
+		hash.put(name, (double)getValue(name)-0.5);
 	}
 	
 	public static void addValue(String name) {
-//		if (name.equals("John L")) {
-//			hash.put(name, (double)(getValue(name)+1)*0.5);
-//		} else if (name.equals("Yvonne")) {
-//			hash.put(name, (double)(getValue(name)+1)*0.75);
-//		} else {
-			hash.put(name, (double)getValue(name)+0.5);
-//		}
+		hash.put(name, (double)getValue(name)+0.5);
 	}
 	
 	public static double getValue(String name) {
