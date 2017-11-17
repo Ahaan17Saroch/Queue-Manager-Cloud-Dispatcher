@@ -53,6 +53,10 @@ public class Rcc extends HttpServlet {
 		
 		response.getWriter().println("</tr></table></center></p>");
 		
+		// Home button
+		response.getWriter().println("<p><center><form action=\"" + "nw" + "\" method=\"get\">" + "<input type=\"submit\" value=\"Return to Home\" />" + "</form></center></p>");
+				
+		
 		response.getWriter().println("");
 		response.getWriter().println("<h2><center> Reset Records </center></h2>");
 		// Add reset button
